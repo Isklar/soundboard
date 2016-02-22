@@ -381,8 +381,6 @@ textarea {
 }
 .button:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover {
 	text-decoration: none
-}
-.button:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover, .button:active, button:active, input[type="submit"]:active, input[type="button"]:active, .button:focus, button:focus, input[type="submit"]:focus, input[type="button"]:focus {
 	background-color: #c3c3c3;
 	color: #f2f2f2
 }
