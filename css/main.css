@@ -5,6 +5,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 	margin: 0;
 	padding: 0
+	text-align: center
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block
@@ -65,12 +66,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .h6, h6 {
 	margin-bottom: 2rem;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	color: #444
-	text-align: center
 }
 h1, .h1 {
 	font-size: 32px;
 	font-size: 3.2rem
-	text-align: center
 }
 h2, .h2 {
 	font-size: 26px;
