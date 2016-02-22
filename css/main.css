@@ -370,10 +370,6 @@ textarea {
 	text-decoration: none
 }
 .button, button, input[type="submit"], input[type="button"] {
-	user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
 	padding: 10px 20px;
 	cursor: pointer;
 	font-family: 'Open Sans', sans-serif;
@@ -385,10 +381,6 @@ textarea {
 }
 .button:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover {
 	text-decoration: none
-}
-.button:hover, button:hover, input[type="submit"]:hover, input[type="button"]:hover, .button:active, button:active, input[type="submit"]:active, input[type="button"]:active, .button:focus, button:focus, input[type="submit"]:focus, input[type="button"]:focus {
-	background-color: #c3c3c3;
-	color: #f2f2f2
 }
 .secondary-btn {
 	-webkit-border-top-right-radius: 4px;
