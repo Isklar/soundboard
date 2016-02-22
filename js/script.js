@@ -5,7 +5,7 @@
 	$("audio").removeAttr("controls").each(function(i, audioElement) {
 	    var audio = $(this);
 	    var that = this;
-	    $("#doc").append($('<li><a class="'+audio.attr("class")+'" href="#" title="'+audio.attr("title")+'"><button type="button">Play/Pause</button></a></li>').onclick(function() {
+	    $("#doc").append($('<li><a class="'+audio.attr("class")+'" href="#" title="'+audio.attr("title")+'"><button type="button">Play/Pause</button></a></li>').click(function() {
 	    	var player = document.getElementById(audio.attr("class"));
 
 	    	if(!player){
