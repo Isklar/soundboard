@@ -370,6 +370,7 @@ textarea {
 	text-decoration: none
 }
 .button, button, input[type="submit"], input[type="button"] {
+	user-select: none;
 	padding: 10px 20px;
 	cursor: pointer;
 	font-family: 'Open Sans', sans-serif;
@@ -412,7 +413,7 @@ textarea {
 	font-size: 1.8rem;
 	border: solid 1px #bfbfbf;
 	background-color: #b4ab95;
-	color: #550000
+	color: #fff
 }
 .secondary-btn:hover {
 	text-decoration: none
@@ -447,7 +448,7 @@ textarea {
 	font-size: 1.8rem;
 	border: solid 1px #bfbfbf;
 	background-color: #f88a08;
-	color: #116416
+	color: #fff
 }
 .highlight-btn:hover {
 	text-decoration: none
